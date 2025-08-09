@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>TICS 2025 — Course Website</title>
+  <meta name="description" content="TICS 2025 — course site: syllabus, schedule, resources, assignments, contact">
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+  <style>
+    :root{--accent:#0b74de;--bg:#f6f8fb;--card:#ffffff;--muted:#6b7280}
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:0;background:var(--bg);color:#0f172a;line-height:1.45}
+    .container{max-width:1000px;margin:32px auto;padding:24px}
+    header{display:flex;align-items:center;gap:16px}
+    .logo{width:64px;height:64px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#6fd3ff);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:20px}
+    h1{margin:0;font-size:1.6rem}
+    nav{margin-left:auto}
+    nav a{margin-left:12px;text-decoration:none;color:var(--accent);font-weight:600}
+    .hero{display:grid;grid-template-columns:1fr 300px;gap:20px;margin-top:18px}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(8,15,30,0.06)}
+    .muted{color:var(--muted)}
+    .cols{display:grid;grid-template-columns:1fr 300px;gap:20px;margin-top:18px}
+    table{width:100%;border-collapse:collapse}
+    th,td{padding:10px;border-bottom:1px solid #eef2f7;text-align:left}
+    th{background:#fbfdff}
+    .btn{display:inline-block;padding:8px 12px;border-radius:8px;background:var(--accent);color:#fff;text-decoration:none}
+    footer{margin-top:28px;text-align:center;color:var(--muted);font-size:0.9rem}
+    @media (max-width:800px){
+      .hero,.cols{grid-template-columns:1fr}
+      nav{margin-left:0;margin-top:12px}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">T25</div>
+      <div>
+        <h1>TICS 2025 — Information & Communication Systems</h1>
+        <div class="muted">Instructor: Dr. A. Example • Semester: Fall 2025</div>
+      </div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#syllabus">Syllabus</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#resources">Resources</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="card">
+          <h2>Welcome</h2>
+          <p class="muted">This site contains everything you need for TICS 2025: lecture notes, assignments, schedule, and resources. Use the navigation links to jump to sections. The site is built for GitHub Pages and is easy to edit — just update this file or add pages to the repository.</p>
+
+          <h3 style="margin-top:14px">Quick links</h3>
+          <p><a class="btn" href="#syllabus">View Syllabus</a> <a style="margin-left:8px" href="#schedule">View Schedule</a></p>
+        </div>
+
+        <aside class="card">
+          <h3>Course at a glance</h3>
+          <ul style="padding-left:18px;margin:8px 0;color:var(--muted)">
+            <li>Credits: 3</li>
+            <li>Lectures: Mon & Wed, 10:00–11:30</li>
+            <li>Location: Room 204, Engineering Building</li>
+          </ul>
+          <h4>Office hours</h4>
+          <p class="muted">Tue 14:00–15:00 (or by appointment) — Dr. A. Example</p>
+        </aside>
+      </section>
+
+      <section id="syllabus" class="card" style="margin-top:18px">
+        <h2>Syllabus</h2>
+        <p class="muted">Overview</p>
+        <p>This course introduces principles of information and communication systems with emphasis on networks, protocols, and real-world applications. Learning outcomes include designing communication solutions, analysing protocols, and implementing small-scale networked systems.</p>
+
+        <h3 style="margin-top:12px">Assessment</h3>
+        <ul style="padding-left:18px;color:var(--muted)">
+          <li>Assignments: 35%</li>
+          <li>Midterm exam: 25%</li>
+          <li>Final exam / project: 30%</li>
+          <li>Participation & quizzes: 10%</li>
+        </ul>
+
+        <h3 style="margin-top:12px">Course policy</h3>
+        <ul style="padding-left:18px;color:var(--muted)">
+          <li>Late submissions: up to 3 days with 10% penalty per day unless excused.</li>
+          <li>Academic integrity: Plagiarism is not tolerated. Cite sources.</li>
+        </ul>
+      </section>
+
+      <section id="schedule" class="cols">
+        <div class="card">
+          <h2>Schedule (select weeks)</h2>
+          <table>
+            <thead>
+              <tr><th>Week</th><th>Topic</th><th>Readings / Deliverable</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>1</td><td>Intro & Systems Overview</td><td>Chapter 1 — Syllabus Quiz</td></tr>
+              <tr><td>2</td><td>Physical & Link Layers</td><td>Assignment 1 posted</td></tr>
+              <tr><td>4</td><td>Network Layer & Routing</td><td>Assignment 2 due</td></tr>
+              <tr><td>8</td><td>Midterm Review</td><td>Midterm (in class)</td></tr>
+              <tr><td>12</td><td>Security & Privacy</td><td>Project proposals</td></tr>
+            </tbody>
+          </table>
+
+          <p style="margin-top:10px"><strong>Download full schedule:</strong> <a href="#" class="btn">PDF (coming soon)</a></p>
+        </div>
+
+        <aside class="card">
+          <h3>Announcements</h3>
+          <ul style="padding-left:18px;color:var(--muted)">
+            <li>Welcome to TICS 2025 — check the syllabus and complete the syllabus quiz by Week 1.</li>
+            <li>Assignment 1 will be due at the end of Week 2.</li>
+          </ul>
+
+          <h4 style="margin-top:12px">Important dates</h4>
+          <p class="muted">Add midterm and final exam dates here once scheduled by the department.</p>
+        </aside>
+      </section>
+
+      <section id="resources" class="card" style="margin-top:18px">
+        <h2>Resources</h2>
+        <ul style="padding-left:18px;color:var(--muted)">
+          <li><a href="#">Lecture slides (link placeholder)</a></li>
+          <li><a href="#">Assignment repository</a></li>
+          <li><a href="#">Reference textbook</a></li>
+          <li><a href="#">Useful tools & datasets</a></li>
+        </ul>
+      </section>
+
+      <section id="contact" class="card" style="margin-top:18px">
+        <h2>Contact</h2>
+        <p class="muted">Instructor</p>
+        <p>Dr. A. Example — <a href="mailto:instructor@example.edu">instructor@example.edu</a></p>
+        <p class="muted">Teaching assistant</p>
+        <p>TA Name — <a href="mailto:ta@example.edu">ta@example.edu</a></p>
+
+        <h3 style="margin-top:12px">Join the class discussion</h3>
+        <p class="muted">We use Slack (or Discord) for quick Q&A. Link will be posted here.</p>
+      </section>
+
+    </main>
+
+    <footer>
+      Built for GitHub Pages • To edit: modify <code>index.html</code> in the repository.
+    </footer>
+  </div>
+</body>
+</html>
